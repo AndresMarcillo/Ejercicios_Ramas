@@ -63,7 +63,7 @@ public class Tiempo3 {
     
     //validar y establecer minuto
     public void establecerMinuto(int m){
-        minuto = ((m >= 0 && h < 60) ?m : 0);
+        minuto = ((m >= 0 && m < 60) ?m : 0);
     }
     
     //validar y establecer segundo
